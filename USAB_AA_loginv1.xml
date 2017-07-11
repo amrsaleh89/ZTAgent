@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<loadTestTemplate>
+  <proxySnifferVersion>V5.4-I</proxySnifferVersion>
+  <loadTestProgramPath>/Applications/ZebraTester/MyTests/USAB_AA_loginv1.zip</loadTestProgramPath>
+  <startFromExecAgentName>Local Exec Agent</startFromExecAgentName>
+  <startFromClusterName></startFromClusterName>
+  <concurrentUsers>1</concurrentUsers>
+  <testDuration>60</testDuration>
+  <loopsPerUser>0</loopsPerUser>
+  <startupDelayPerUser>200</startupDelayPerUser>
+  <downlinkBandwidth>0</downlinkBandwidth>
+  <uplinkBandwidth>0</uplinkBandwidth>
+  <requestTimeout>60</requestTimeout>
+  <maxErrorSnapshots>-20</maxErrorSnapshots>
+  <statisticSamplingInterval>15</statisticSamplingInterval>
+  <percentilePageSamplingPercent>100</percentilePageSamplingPercent>
+  <percentileUrlSamplingPercent>20</percentileUrlSamplingPercent>
+  <percentileUrlSamplingPercentAddOption>0</percentileUrlSamplingPercentAddOption>
+  <debugOptions></debugOptions>
+  <additionalOptions></additionalOptions>
+  <sslOptions>all</sslOptions>
+  <pmaTemplateFileName></pmaTemplateFileName>
+  <testRunAnnotation></testRunAnnotation>
+  <userInputFields>
+    <userInputField>
+      <name>version</name>
+      <value>4.1.1.4</value>
+    </userInputField>
+    <userInputField>
+      <name>HostName</name>
+      <value>demo.q2ebanking.com</value>
+    </userInputField>
+    <userInputField>
+      <name>thinktime</name>
+      <value>3</value>
+    </userInputField>
+    <userInputField>
+      <name>vTriggerSnapshot</name>
+      <value>false</value>
+    </userInputField>
+  </userInputFields>
+</loadTestTemplate>

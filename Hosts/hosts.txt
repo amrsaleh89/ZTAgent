@@ -1,0 +1,2 @@
+#IP address Host
+144.2.45.107 ashcomm8.cds.ashleyretail.com
